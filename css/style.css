@@ -149,21 +149,15 @@ img {
         flex-wrap: wrap;
     }
 
-    .why-us .col-right {
-        width: 100%;
-    }
-
     .why-us .col-left {
         width: 40%;
         margin-bottom: 2rem;
-        text-align: center;
-        
     }
 
     .why-us .col-right {
         width: 60%;
         margin-bottom: 2rem;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -192,7 +186,7 @@ img {
         background-color: #222222;
     }
 
-    .why-us .text-center:{
+    .why-us .text-center {
         width: 70%;
     }
 
