@@ -11,8 +11,8 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    color: #b8c1ec;
-    background: #232946;
+    color: #b8c1ec; 
+    background: #232946; 
 }
 
 h1,
@@ -154,5 +154,43 @@ img {
         width: 60%;
         margin-bottom: 2rem;
         text-align: center;
+    }
+}
+
+/* MOBILE - sotto i 480px */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .lessons .col ,
+    .steps .col  {
+        
+        width:100%;
+        height: auto;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+
+    .why-us .text-center:{
+        width: 70%;
+    }
+
+    .why-us .col-right, 
+    .why-us .col-left {
+        
+        text-align: left;
+        width:100%;
+        height:auto;
     }
 }
