@@ -168,11 +168,16 @@ img {
     }
 
     h2 {
-        font-size: 2.5rem;
+        
+        font-size: 2rem;
     }
 
     h3 {
         font-size: 2rem;
+    }
+
+    .lessons{
+        padding-bottom: 1.5rem;
     }
 
     .lessons .col ,
@@ -182,12 +187,19 @@ img {
         height: auto;
     }
 
+    .steps{
+        margin-bottom: 0;
+    }
+
     .why-us {
         background-color: #222222;
+        margin-bottom: 0;
+        padding-top: 3rem;
     }
 
     .why-us .text-center {
-        width: 70%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .why-us .col-right, 
@@ -197,6 +209,8 @@ img {
         width:100%;
         height:auto;
     }
+
+    
 }
 
 
